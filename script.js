@@ -10,7 +10,7 @@ document.body.innerHTML+=`
 
 async function getproductBybrand(){
     try{
-    const data1=await fetch("http://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer");
+    const data1=await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?product_type=bronzer");
     const makeup=await data1.json();
     console.log(makeup);
     makeup.forEach((mab_product) => {

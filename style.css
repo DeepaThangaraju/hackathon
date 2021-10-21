@@ -1,0 +1,90 @@
+
+.container{
+    margin:auto;
+    width:90%;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+.image{
+    width:10rem;
+    height:10rem;
+    border-radius: 50%;
+    border:3px solid black;
+    
+   
+}
+.space>div:nth-child(1)
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin:0rem 0rem 0rem 0rem;
+    background-color: burlywood;
+}
+
+.details{
+    border:0px solid black;
+    background: rgba( 171, 199, 139, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.description{
+    width:100%;
+    height:10rem;
+    border:0px solid black;
+ 
+}
+.text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.hp{
+    text-align: center;
+    color:coral;
+    font-size: 2rem;
+    padding:2rem;
+    background-image: linear-gradient(to right bottom, #e3e792, #b2e39f, #86dab2, #66cfc4, #5cc0cf);
+    text-transform: uppercase;
+}
+.dislabel{
+    margin:2rem 0rem 0rem 0rem;
+}
+.space{
+    width:100%;
+    height:48rem; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 0.5rem;
+    
+}
+.space:hover{
+    transform:translate(10px);
+    transition: 1s;
+}
+.space p{
+    text-align: left;
+}
+.space h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:brown;
+    margin:1rem 0rem 1rem 0rem;
+}
+
+.productLink{
+    overflow:auto;
+}
+
+
+@media (max-width:600px){
+    .space:hover{
+        transform:none;
+        transition: none;
+    }
+}
+    
